@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.eachmatch-container {
+  background-color: #1e293b;
+  border-radius: 8px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10px;
+  margin-right: 20px;
+
+  padding: 2px;
+  height: 340px;
+  width: 300px;
+}
+.comp-team-logo {
+  margin-top: 10px;
+  height: 90px;
+  width: 90px;
+  align-self: center;
+}
+.compteam {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'roboto';
+  align-self: center;
+  text-align: center;
+}
+.matchresult {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'roboto';
+
+  text-align: center;
+  padding: 20px;
+}
+.matchstatus {
+  margin-right: auto;
+  margin-left: auto;
+}
+.win {
+  color: #18ed66;
+}
+.loss {
+  color: #e31a1a;
+}

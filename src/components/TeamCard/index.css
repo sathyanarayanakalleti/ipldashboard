@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.team-logo {
+  height: 60%;
+  width: 10%;
+  margin: 10px;
+  align-self: center;
+}
+.team-card-container {
+  display: flex;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+@media Screen and (max-width: 768px) {
+  .team-card-container {
+    width: 260px;
+    justify-content: space-between;
+  }
+  .team-logo {
+    align-self: center;
+    height: 60%;
+    width: 20%;
+  }
+  .teamdata-container {
+    justify-content: center;
+    padding-right: 70px;
+  }
+  .teamcardname {
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+    padding-right: 10px;
+  }
+}
+
+.teamdata-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 40%;
+  margin: 20px;
+}
+.teamcardname {
+  color: #ffffff;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 90px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'roboto';
+}
+.links {
+  text-decoration: none;
+}

@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #1e293b;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  width: 1200px;
+}
+.competingteam {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'roboto';
+  font-weight: 500;
+  padding-left: 30px;
+}
+.date {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 500;
+  padding-left: 30px;
+}
+.venue {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 500;
+  padding-left: 30px;
+}
+.result {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 500;
+  padding-left: 30px;
+}
+.comp-team-container {
+  padding-top: 80px;
+
+  align-self: flex-start;
+}
+.comp-team-logo-container {
+  align-self: center;
+}
+.comp-team-container2 {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+.cteamlogo {
+  padding-right: 20px;
+  height: 300px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  align-self: center;
+}
+.firstinnings1 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.firstinnings {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 500;
+  text-align: end;
+}
+.secondinnings2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+
+.secondinnings {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.manofmatch1 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.manofmatch {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.umpire1 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.umpire {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 500;
+  text-align: end;
+}
